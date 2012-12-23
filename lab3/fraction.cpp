@@ -3,8 +3,8 @@
 
 Fraction& Fraction::operator+(const Fraction& elem)
 {
-    this->integer+=elem.getInt()/10;
-    this->fract+=elem.getFract()%10;
+    this->integer = this->integer + elem.getInt() + (this->fract + elem.getFract())/10;
+    this->fract = (this->fract + elem.getFract())%10;
     return *this;
 }
 
