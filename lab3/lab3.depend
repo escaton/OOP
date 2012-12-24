@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1356221928 source:/home/halfcupgreentea/lab3/fraction.cpp
+	<iostream>
+	"fraction.h"
+
+1356221901 /home/halfcupgreentea/lab3/fraction.h
+	<iostream>
+
+1356221058 source:/home/halfcupgreentea/lab3/main.cpp
+	<iostream>
+	"fraction.h"
+
